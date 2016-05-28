@@ -1,0 +1,9 @@
+NOTICE.txt LOADED
+
+If you see this, then you patcher can received announments by editing.replacing this notice.txt from the client's registry's URLnotice key
+
+------------------------------------------------------
+
+
+
+
