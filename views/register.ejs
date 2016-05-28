@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+<div>
+    <label for="reg_username">Username:</label>
+    <input type="text" id="reg_username" required>
+</div>
+<div>
+    <label for="reg_password">Password:</label>
+    <input type="password" id="reg_password" required>
+</div>
+<div>
+    <label for="reg_password_retype">Retype Password:</label>
+    <input type="password" id="reg_password_retype" required>
+</div>
+<div>
+    <label for="reg_email">Email:</label>
+    <input type="email" id="reg_email" required>
+</div>
+<div>
+    <label for="reg_gender">Giới tính:</label>
+    <select id="reg_gender">
+        <option value="0">Chuẩn men</option>
+        <option value="1">Bánh bèo</option>
+        <option value="3">Khác ahjhj</option>
+    </select>
+</div>
+<div>
+    <label for="reg_country">Quốc gia:</label>
+    <select id="reg_country">
+        <option value=1 >Afghanistan</option>
+        <option value=2 >Albania</option>
+        <option value=3 >Algeria</option>
+        <option value=4 >Andorra</option>
+        <option value=5 >Angola</option>
+        <option value=6 >Anguilla</option>
+        <option value=7 >Antarctica</option>
+        <option value=8 >Antigua and Barbuda</option>
+        <option value=220 >APO</option>
+        <option value=9 >Argentina</option>
+        <option value=10 >Armenia</option>
+        <option value=11 >Aruba</option>
+        <option value=12 >Australia</option>
+        <option value=13 >Austria</option>
+        <option value=14 >Azerbaijan</option>
+        <option value=15 >Bahamas</option>
+        <option value=16 >Bahrain</option>
+        <option value=17 >Bangladesh</option>
+        <option value=18 >Barbados</option>
+        <option value=21 >Belarus</option>
+        <option value=19 >Belgium</option>
+        <option value=20 >Belize</option>
+        <option value=22 >Benin</option>
+        <option value=23 >Bermuda</option>
+        <option value=24 >Bhutan</option>
+        <option value=25 >Bolivia</option>
+        <option value=26 >Bosnia and Herzegovina</option>
+        <option value=27 >Botswana</option>
+        <option value=223 >Bouvet Island</option>
+        <option value=28 >Brazil</option>
+        <option value=224 >British Indian Ocean Territory</option>
+        <option value=241 >British Virgin Islands</option>
+        <option value=29 >Brunei</option>
+        <option value=30 >Bulgaria</option>
+        <option value=31 >Burkina Faso</option>
+        <option value=32 >Burundi</option>
+        <option value=33 >Cambodia</option>
+        <option value=34 >Cameroon</option>
+        <option value=35 >Canada</option>
+        <option value=36 >Cape Verde</option>
+        <option value=37 >Cayman Islands</option>
+        <option value=38 >Central African Republic</option>
+        <option value=225 >Chad</option>
+        <option value=39 >Chile</option>
+        <option value=41 >Christmas Island</option>
+        <option value=226 >Cocos(Keeling) Islands</option>
+        <option value=42 >Colombia</option>
+        <option value=43 >Comoros</option>
+        <option value=44 >Congo</option>
+        <option value=46 >Cook Islands</option>
+        <option value=47 >Costa Rica</option>
+        <option value=48 >Cote D'Ivoire</option>
+        <option value=49 >Croatia</option>
+        <option value=50 >Cuba</option>
+        <option value=51 >Cyprus</option>
+        <option value=52 >Czech Republic</option>
+        <option value=45 >Democratic Republic of the Congo</option>
+        <option value=53 >Denmark</option>
+        <option value=54 >Djibouti</option>
+        <option value=55 >Dominica</option>
+        <option value=56 >Dominican Republic</option>
+        <option value=227 >East Timor</option>
+        <option value=57 >Ecuador</option>
+        <option value=58 >Egypt</option>
+        <option value=59 >El Salvador</option>
+        <option value=60 >Equatorial Guinea</option>
+        <option value=61 >Eritrea</option>
+        <option value=62 >Estonia</option>
+        <option value=63 >Ethiopia</option>
+        <option value=242 >EU</option>
+        <option value=64 >Falkland Islands</option>
+        <option value=228 >Faroe Islands</option>
+        <option value=65 >Fiji</option>
+        <option value=66 >Finland</option>
+        <option value=221 >FPO</option>
+        <option value=67 >France</option>
+        <option value=68 >French Guiana</option>
+        <option value=69 >French Polynesia</option>
+        <option value=229 >French Southern Territories</option>
+        <option value=70 >Gabon</option>
+        <option value=71 >Gambia</option>
+        <option value=73 >Georgia</option>
+        <option value=72 >Germany</option>
+        <option value=75 >Ghana</option>
+        <option value=230 >Gibraltar</option>
+        <option value=76 >Greece</option>
+        <option value=77 >Greenland</option>
+        <option value=78 >Grenada</option>
+        <option value=79 >Guadeloupe</option>
+        <option value=80 >Guam</option>
+        <option value=81 >Guatemala</option>
+        <option value=82 >Guinea</option>
+        <option value=83 >Guinea-Bissau</option>
+        <option value=84 >Guyana</option>
+        <option value=85 >Haiti</option>
+        <option value=231 >Heard and McDonald Islands</option>
+        <option value=86 >Honduras</option>
+        <option value=87 >Hong Kong</option>
+        <option value=88 >Hungary</option>
+        <option value=89 >Iceland</option>
+        <option value=90 >India</option>
+        <option value=91 >Indonesia</option>
+        <option value=92 >Iran</option>
+        <option value=93 >Iraq</option>
+        <option value=94 >Ireland</option>
+        <option value=95 >Israel</option>
+        <option value=96>Italy</option>
+        <option value=97 >Jamaica</option>
+        <option value=98 >Japan</option>
+        <option value=99 >Jordan</option>
+        <option value="100" >Kazakhstan</option>
+        <option value="101" >Kenya</option>
+        <option value="102" >Kiribati</option>
+        <option value="103" >Kitts and Nevis</option>
+        <option value="107" >Kuwait</option>
+        <option value="106" >Kyrgyzstan</option>
+        <option value="108" >Laos</option>
+        <option value="109" >Latvia</option>
+        <option value="110" >Lebanon</option>
+        <option value="111" >Lesotho</option>
+        <option value="112" >Liberia</option>
+        <option value="113" >Libya</option>
+        <option value="114" >Liechtenstein</option>
+        <option value="115" >Lithuania</option>
+        <option value="116" >Luxembourg</option>
+        <option value="117" >Macau</option>
+        <option value="118" >Macedonia</option>
+        <option value="119" >Madagascar</option>
+        <option value="126" >Malawi</option>
+        <option value="120" >Malaysia</option>
+        <option value="121" >Maldives</option>
+        <option value="122" >Mali</option>
+        <option value="124" >Malta</option>
+        <option value="123" >Marshall Islands</option>
+        <option value="127" >Martinique</option>
+        <option value="128" >Mauritania</option>
+        <option value="129" >Mauritius</option>
+        <option value="130" >Mayotte</option>
+        <option value="131" >Mexico</option>
+        <option value="132" >Micronesia</option>
+        <option value="133" >Moldova</option>
+        <option value="232" >Monaco</option>
+        <option value="134" >Mongolia</option>
+        <option value="135" >Montserrat</option>
+        <option value="136" >Morocco</option>
+        <option value="137" >Mozambique</option>
+        <option value="138" >Myanmar</option>
+        <option value="139" >Namibia</option>
+        <option value="140" >Nauru</option>
+        <option value="141" >Nepal</option>
+        <option value="142" >Netherlands</option>
+        <option value="143" >Netherlands Antilles</option>
+        <option value="144" >New Caledonia</option>
+        <option value="145" >New Zealand</option>
+        <option value="146" >Nicaragua</option>
+        <option value="147" >Niger</option>
+        <option value="148" >Nigeria</option>
+        <option value="149" >Niue</option>
+        <option value="233" >Norfolk Island</option>
+        <option value="104" >North Korea</option>
+        <option value="125" >Northern Mariana Islands</option>
+        <option value="150" >Norway</option>
+        <option value="151" >Oman</option>
+        <option value="222" >Other</option>
+        <option value="152" >Pakistan</option>
+        <option value="153" >Palau</option>
+        <option value="244" >Palestine</option>
+        <option value="154" >Panama</option>
+        <option value="155" >Papua New Guinea</option>
+        <option value="156" >Paraguay</option>
+        <option value="40" >People's Rep. of China</option>
+        <option value="157" >Peru</option>
+        <option value="158" >Philippines</option>
+        <option value="159" >Pitcairn Island</option>
+        <option value="160" >Poland</option>
+        <option value="161" >Portugal</option>
+        <option value="162" >Puerto Rico</option>
+        <option value="163" >Qatar</option>
+        <option value="164" >Reunion</option>
+        <option value="165" >Romania</option>
+        <option value="166" >Russia</option>
+        <option value="167" >Rwanda</option>
+        <option value="74" >S. Georgia and the S. Sandwich Is.</option>
+        <option value="234" >Saint Helena</option>
+        <option value="168" >Saint Lucia</option>
+        <option value="235" >Saint Pierre and Miquelon</option>
+        <option value="169" >Saint Vincent and the Grenadines</option>
+        <option value="170" >Samoa-American</option>
+        <option value="171" >Samoa-Western</option>
+        <option value="172" >San Marino</option>
+        <option value="173" >Sao Tome and Principe</option>
+        <option value="174" >Saudi Arabia</option>
+        <option value="175" >Senegal</option>
+        <option value="245" >Serbia and Montenegro</option>
+        <option value="176" >Seychelles</option>
+        <option value="177" >Sierra Leone</option>
+        <option value="178" >Singapore</option>
+        <option value="179" >Slovakia</option>
+        <option value="180" >Slovenia</option>
+        <option value="181" >Solomon Islands</option>
+        <option value="182" >Somalia</option>
+        <option value="183" >South Africa</option>
+        <option value="105" >South Korea</option>
+        <option value="184" >Spain</option>
+        <option value="185" >Sri Lanka</option>
+        <option value="186" >Sudan</option>
+        <option value="187" >Suriname</option>
+        <option value="236" >Svalbard and Jan Mayen Islands</option>
+        <option value="188" >Swaziland</option>
+        <option value="189" >Sweden</option>
+        <option value="190" >Switzerland</option>
+        <option value="191" >Syria</option>
+        <option value="192" >Taiwan</option>
+        <option value="193" >Tajikistan</option>
+        <option value="194" >Tanzania</option>
+        <option value="195" >Thailand</option>
+        <option value="196" >Togo</option>
+        <option value="237" >Tokelau</option>
+        <option value="197" >Tonga</option>
+        <option value="198" >Trinidad and Tobago</option>
+        <option value="199" >Tunisia</option>
+        <option value="200" >Turkey</option>
+        <option value="201" >Turkmenistan</option>
+        <option value="238" >Turks and Caicos Islands</option>
+        <option value="202" >Tuvalu</option>
+        <option value="203" >Uganda</option>
+        <option value="204" >Ukraine</option>
+        <option value="205" >United Arab Emirates</option>
+        <option value="206" >United Kingdom</option>
+        <option value="239" >United States Minor Outlying Islands</option>
+        <option value="208" >Uruguay</option>
+        <option value="207" >United States of America</option>
+        <option value="209" >Uzbekistan</option>
+        <option value="210" >Vanuatu</option>
+        <option value="211" >Vatican City</option>
+        <option value="212" >Venezuela</option>
+        <option value="214" selected >Việt Nam</option>
+        <option value="213" >Virgin Islands</option>
+        <option value="240" >Wallis and Futuna</option>
+        <option value="215" >Western Sahara</option>
+        <option value="216" >Yemen</option>
+        <option value="217" >Yugoslavia</option>
+        <option value="218" >Zambia</option>
+        <option value="219" >Zimbabwe</option>"
+    </select>
+</div>
+<div>
+    <label for="reg_adminCode">Admin Code (if you are admin):</label>
+    <input type="text" id="reg_adminCode">
+</div>
+<div>
+    <button id="reg_submit" name="reg_submit" onclick="submit()">Submit</button>
+</div>
+
+<script>
+    function submit(){
+        var username = document.querySelector('#reg_username').value;
+        var password = document.querySelector('#reg_password').value;
+        var password_retype = document.querySelector('#reg_password_retype').value;
+        var email = document.querySelector('#reg_email').value;
+        var gender = document.querySelector('#reg_gender').value;
+        var country = document.querySelector('#reg_country').value;
+        var adminCode = document.querySelector('#reg_adminCode').value;
+
+        if (!username ||
+            !password ||
+            !password_retype ||
+            !email ||
+            !gender ||
+            !country) {
+            return alert("Nhập đầy đủ thông tin");
+        }
+
+        if (password_retype != password) {
+            return alert("Retype Password và Password không trùng nhau");
+        }
+
+        var post_data = {
+            id: username,
+            password: password,
+            email: email,
+            gender: gender,
+            country: country,
+            adminCode: adminCode
+        };
+
+        var request = new XMLHttpRequest();
+        request.open('POST', '/users/register', true);
+        request.setRequestHeader('Content-Type', 'application/json');
+        request.send(JSON.stringify(post_data));
+        request.onreadystatechange = function(){
+            if (request.readyState == 4 && request.status == 200) {
+                var response = JSON.parse(request.responseText);
+                if (response.status) {
+                    alert(response.message);
+                } else {
+                    alert(response.error);
+                }
+            }
+        }
+    }
+</script>
+</body>
+</html>
